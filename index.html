@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 <head>
@@ -7,24 +8,130 @@
 
   <title>Transactional Email template</title>
 
-  <style type="text/css">
-    @media only screen and (max-width: 900px){
+  <style>
+      .main{
+          width: 600px;
+      }
+      .line{
+        border: solid .5px #d7dfe3;
+        width: 100%;
+      }
+      .QR{
+          width: 170px;
+          padding: 20px 0 20px 220px;
+          
+      }
+      
+    
+    @media only screen and (max-width: 600px){
+        
+        .main{
+           width: 380px !important;
+        }
+        
         p{
             font-size: 12px;
         }
         .logo{
             width: 50px;
+            padding: 0 100px 0 0 ;
+
         }
 
         .nav-links{
-            font-size: 14px;
+            font-size: 12px;
         }
-    }
-    @media only screen and (max-width: 400px){
-        .nav-link {
-            font-size: 5px;
+        .line{
+            width: 100% !important;
+            
         }
+        .customer{
+            font-size: 12px;
+        }
+        .nav-bar{
+            padding: 0 100px 0 0 ;
+        }
+        .head-1{
+            font-size: 31px !important;
+            padding-right: 85px;
+
+        }
+        .txt-1{
+            font-size: 11px !important;
+            width: 400px;
+            padding: 0 100px 0 60px !important;
+            
+        }
+        .line{
+            width: 500px !important;
+            border: solid .5px #d7dfe3;
+            display: none;
+        }
+        .det{
+            padding-left: px;
+            padding-top: 30px;
+        }
+
+        .title{
+            font-size: 12px;
+        }
+        .address{
+            width: 150px;
+        }
+        .summary{
+            width: 430px !important;
+            font-size: 11px;
+           
+        }
+        .shift{
+            padding-right: 90px;
+          
+        }
+        .total{
+            font-size: 11px !important;
+            
+        }
+        .tot-shift{
+            padding: 20px 0 20px 250px !important;
+            
+        }
+        .QR{
+            width: 130px;
+            padding-right: px;
+            border: solid 1px black;
+            display: none;
+   
+            
+        }
+        .QR-shift{
+           padding: 20px 0px 20px 0 ;
+           
+          
+        }
+
+        .fin{
+            padding: 20px 30px 0px 0 ;
+            border-top: solid .5px #d7dfe3;
+            border-bottom: solid .5px #d7dfe3;
+            background-color: #F8F8F8;
+        }
+
+        .foot-txt{
+            width: 360px;
+            padding-left: 17px;
+            font-size: 10px !important;
+            
+        }
+        .your-details{
+            width: 500px;
+
+        }
+       
+        
+        
+
     }
+   
 
 
 
@@ -33,9 +140,9 @@
 
   </style>    
 </head>
-<body style="margin:0; padding:0; background-color:#f3f3f3; font-family: Arial, Helvetica, sans-serif;">
-  <center width=“100%” style="background-color: #f8f8f8;">
-    <table class="main" align=“center” border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" width="600">
+<body style=" font-family: Arial, Helvetica, sans-serif;" class="bod">
+  <center width=“100%” style="background-color: #f8f8f8;" class="cen">
+    <table class="main" align=“center” border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" >
         <tr>
             <td align= "center" style="padding-top: 50px;" >
                 <a href="https://imgbb.com/"><img  class="logo" src="https://i.ibb.co/FzfykT9/unnamed-8.png" alt="unnamed-8" border="0"></a>
@@ -45,7 +152,7 @@
 
         <tr>
             <td align="center">
-                <table  style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; text-transform: uppercase; font-weight: 600; text-decoration: none; color: #000000;">
+                <table  style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; text-transform: uppercase; font-weight: 600; text-decoration: none; color: #000000;" class="nav-bar">
                     <tr>
                         <td style="padding-top: 30px;"> 
                             <a href="" class="nav-links" style="text-decoration: none; color: #000000;padding-left: 15px;">Women</a>
@@ -58,70 +165,66 @@
                     </tr>
                     <tr>
                         <td align="center" style="padding-top: 20px;">
-                            <a href="" style="text-decoration: none; color: #000000;">customer service</a>
+                            <a href="" style="text-decoration: none; color: #000000;" class="customer">customer service</a>
                         </td>
                     </tr>
                 </table>
             </td>
         </tr>
 
-        <tr>
+        <tr >
             <td>
-                <table border="0" width="100%" cellpadding="0" cellspacing="0">
-                    <tr>
-                      <td style="background:none; border-bottom: 1px solid #d7dfe3; height:1px; width:100%; margin:0px 0px 0px 0px;">&nbsp;</td>
-                    </tr>
-                  </table>
+                <hr class="line width">
             </td>
-        </tr>
+       </tr>
 
 
         <tr>
             <td>
-                <h1 style="text-align: center; font-size: 40px; padding-top: 20px;">Hello Customer</h1>
+                <h1 style="text-align: center; font-size: 40px; padding-top: 20px;" class="head-1">Hello Customer</h1>
 
-                <p style="text-align: center; font-size: 13px; padding: 0 30px; line-height: 21px;">
+                <p style="text-align: center; font-size: 13px; padding: 0 30px; line-height: 21px;" class="txt-1">
                     Thank you for shopping at H&M. We have received your order and will contact you when your order has shipped. Below is your order information.
                 </p>
             </td>
         </tr>
 
 
-        <tr>
+        <tr >
             <td style="padding-top:30px;">
-                <p style="text-transform: uppercase; background: #F8F8F8; padding: 15px 0 15px 20px; border-top: solid 1px #d7dfe3; border-bottom: solid 1px #d7dfe3; font-weight: 600;">
+                <p style="text-transform: uppercase; background: #F8F8F8; padding: 15px 0 15px 20px; border-top: solid 1px #d7dfe3; border-bottom: solid 1px #d7dfe3; font-weight: 600;" class="your-details">
                     Your Details
                 </p>
             </td>
         </tr>
 
        <tr>
-           <td>
-               <table cellspacing="0" cellpadding="0" style="padding: 0 0 0 50px; font-size: 15px;" >
+           <td class="det">
+               <table cellspacing="0" cellpadding="0" style="padding: 0 0 0 50px; font-size: 15px;" class="details">
                    <tr>
-                       <td style="padding-bottom: 110px; padding-right: 70px;"> 
-                         <strong>Order number</strong>
-                         <p>26417445113</p>
+                       <td style="padding-bottom: 110px; padding-right: 70px;" class="cell"> 
+                         <strong class="title">Order number</strong>
+                         <p class="txt2">26417445113</p>
                          <br>
                          <br>
                          
 
 
-                         <strong>Order Date</strong>
-                         <p>02/02/2022</p>
+                         <strong class="title">Order Date</strong>
+                         <p class="txt2">02/02/2022</p>
 
                          <br>
                          <br>
 
-                         <strong style="line-height: 29px;">Name</strong>
+                         <strong style="line-height: 29px;" class="title">Name</strong>
                          <br>
-                         <a href="#">customer123@gmail.com</a>
+                         <a href="#" class="txt2">customer123@gmail.com</a>
 
                          <br>
                          <br>
 
-                         <strong>Payment Method</strong>
-                         <p>Pay in 4 interest-free installments</p>
+                         <strong class="title">Payment Method</strong>
+                         <p class="txt2">Pay in 4 interest-free installments</p>
                          
 
                        </td>
@@ -130,27 +233,27 @@
                        <td style="width: 250px;">
 
 
-                        <strong>Billing Address</strong>
-                        <p style="line-height: 20px;">Mariame Bah
+                        <strong class="title">Billing Address</strong>
+                        <p style="line-height: 20px;" class="address">Mariame Bah
                             4460 S Macgregor Way Apt 513
                             Houston TX
                             77021-1678
                             USA</p>
 
-                        <strong style="line-height: 20px;">Shipping Method</strong>
+                        <strong style="line-height: 20px;" class="title">Shipping Method</strong>
                         <br>
-                        <strong style="line-height: 20px;">Package 1 :</strong><p>USPS</p>
+                        <strong style="line-height: 20px;" class="title">Package 1 :</strong><p>USPS</p>
                         <br>
-                        <strong>Package 2 : </strong><p>FEDEX</p>
+                        <strong class="title">Package 2 : </strong><p>FEDEX</p>
 
-                        <strong>Shipping Addresss</strong>
-                        <p>Mariame Bah
+                        <strong class="title">Shipping Addresss</strong>
+                        <p class="address">Mariame Bah
                             4460 S Macgregor Way Apt 513
                             Houston TX
                             77021-1678
                             USA</p>
 
-                        <strong>Contact Number</strong>
+                        <strong class="title">Contact Number</strong>
                         <p>+1233211233</p>
 
                        </td>
@@ -162,20 +265,20 @@
 
        <tr>
             <td style="padding-top:30px;">
-                <p style="text-transform: uppercase; background: #F8F8F8; padding: 15px 0 15px 20px; border-top: solid 1px #d7dfe3; border-bottom: solid 1px #d7dfe3; font-weight: 600;">
+                <p class="line" style="text-transform: uppercase; background: #F8F8F8; padding: 15px 0 15px 20px; border-top: solid 1px #d7dfe3; border-bottom: solid 1px #d7dfe3; font-weight: 600;" class="your-details">
                     Order summary
                 </p>
             </td>
        </tr>
 
        <tr>
-           <td>
-               <table style="width: 550px; font-size: 12px;" align="center" cellspacing="0" cellpadding="0" >
+           <td class="shift">
+               <table style="width: 550px; font-size: 12px;" align="center" cellspacing="0" cellpadding="0" class="summary" >
                    <tr style="border: solid 2px #d7dfe3;">
-                        <th style="text-align: left; text-transform: uppercase; padding: 30px 0;">Package 1</th>
+                        <th style="text-align: left; text-transform: uppercase; padding: 30px 0;" >Package 1</th>
                    </tr>
                    
-                   <tr style="text-transform: uppercase; font-weight: 600; ">
+                   <tr style="text-transform: uppercase; font-weight: 600;" class="summary">
                        <td>
                            Art.No.
                        </td>
@@ -198,7 +301,7 @@
                    </tr>
 
                    <tr style="border-bottom: solid 1px #d7dfe3;" align="">
-                       <td style="">
+                       <td>
                         0978468001003  
                        </td>
 
@@ -378,7 +481,7 @@
 
        <tr>
           <td>
-              <table cellspacing="0" cellpadding="0" style="font-size: 13px; padding: 20px 0 0 300px; line-height: 22px;">
+              <table cellspacing="0" cellpadding="0" style="font-size: 13px; padding: 20px 0 0 300px; line-height: 22px;" class="total tot-shift" >
                   <tr>
                     <td>
                         TOTAL:
@@ -429,48 +532,48 @@
 
           
        </tr>
-
-       <tr style="width: 250px;">
-        <td style="border: solid 1px #d7dfe3; width: 250px; text-align: right; margin-top: 20px;">
-
-        </td>
+      
+       <tr >
+            <td>
+                <hr class="line">
+            </td>
        </tr>
 
-
-       <tr>
-
-        <td>
-            <a href="#"><img src="https://i.ibb.co/X52f4fr/QR-code.png" alt="QR-code" border="0" style="margin: 20px 50px 0px 190px;" width="250" ></a>
         
+       <tr cellpadding="0" cellspacing="0">
+            <td class="QR-shift"> 
+                <a href="#">
+                    <img src="https://i.ibb.co/yWdhzqR/Screen-Shot-2022-05-17-at-2-48-25-PM.png" alt="QR Code" class="QR">
+                </a>
+            </td>
        </tr>
 
        <tr>
-           <td>
-               <p style="font-size: 12px; text-align: center; padding: 0 0 20px 0" >* Final tax will be calculated once we ship your order</p>
+           <td class="fin">
+               <p style="font-size: 12px; text-align: center; padding: 0 20px 20px 0"  >* Final tax will be calculated once we ship your order</p>
            </td>
        </tr>
 
-       <tr style="width: 250px;">
-        <td style="border: solid 1px #d7dfe3; width: 250px; text-align: right;">
-
-        </td>
+    
+       <tr >
+            <td>
+                <hr class="line">
+            </td>
        </tr>
 
        <tr >
-           <td style="padding: 50px 50px 0 50px;">
-               <p style="font-size: 11px; text-align: center;">Note, you cannot reply to this email. If you have any questions about why you receive this email, or want to  contact us,  please call us toll-free at 855-466-7467.  For more information about your orders, please log in to <a href="#">My H&M.</a>  You always have 30 days to decide whether the item is right for you. To learn more about returns, please read our <a href="#">return and refund policy.</a>For more information, please read our <a href="#">privacy policy</a>  and <a href="#">terms of use.</a></p>
+           <td style="padding: 50px 50px 0 50px;" class="foot-txt txt-top">
+               <p style="font-size: 11px; text-align: center;" class="foot-txt">Note, you cannot reply to this email. If you have any questions about why you receive this email, or want to  contact us,  please call us toll-free at 855-466-7467.  For more information about your orders, please log in to <a href="#">My H&M.</a>  You always have 30 days to decide whether the item is right for you. To learn more about returns, please read our <a href="#">return and refund policy.</a>For more information, please read our <a href="#">privacy policy</a>  and <a href="#">terms of use.</a></p>
            </td>
        </tr>
 
        <tr>
-           <td style="padding: 0 60px 60px 60px;">
-           <p style="font-size: 11px; text-align: center"> Kind regards, H&M Customer Service<br>
+           <td style="padding: 0 60px 60px 60px;" class="foot-txt">
+           <p style="font-size: 11px; text-align: center" class="foot-txt"> Kind regards, H&M Customer Service<br>
             Tax ID: 52-2186-000 <br>
             H&M Hennes & Mauritz LP, 300 Lighting Way, Secaucus, 07094, 855-466-7467 (Toll free)</p>
            </td>
        </tr>
-
-
 
     </table>
   </center>
